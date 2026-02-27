@@ -31,10 +31,10 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, alignItems: 'center', justifyContent: 'center' },
+  container: { flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#ff8ebb' },
   titulo: { fontSize: 20, color: '#fff' },
   numero: { fontSize: 80, fontWeight: 'bold', color: '#fff' },
   linhaDeBotoes: { flexDirection: 'row', marginTop: 20 },
-  botaoMais: { backgroundColor: '#4CAF50', marginRight: 10, padding: 10, borderRadius: 5 },
-  botaoMenos: { backgroundColor: '#F44336', padding: 10, borderRadius: 5 }
+  botaoMais: { backgroundColor: '#c01f8a', marginRight: 10, padding: 10, borderRadius: 5 },
+  botaoMenos: { backgroundColor: '#7b0ce4', padding: 10, borderRadius: 5 }
 });
